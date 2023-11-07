@@ -1,8 +1,11 @@
+import Luuletus1 from './Luuletus1';
+import Luuletus2 from './Luuletus2';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
+ 
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -15,8 +18,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          'Test Natalja'
         </a>
+        <Luuletus1/>
+        <div>---------------</div>
+        <Luuletus2/>
       </header>
     </div>
   );
